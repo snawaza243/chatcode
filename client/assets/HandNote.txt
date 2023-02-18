@@ -1,0 +1,83 @@
+html
+css 
+js
+vit
+node js
+open ai
+
+setup vanilla js prj
+server side nodejs
+layout css
+event handle js
+from string render markdown
+prism for code handling
+api request 
+catch errors
+
+
+download nodejs and install
+
+npm create vite@latest client --template vanilla
+press y
+select framework : vanilla
+select variant : javascript
+cd client
+npm install
+past accets folder in client folder
+npm run dev
+
+frontend
+
+server and chat gpt api
+
+create server file at level client
+change dir in server
+npm init -y
+
+install dependency
+
+npm install cors dotenv express nodemon openai
+
+create server.js in serve dir
+
+goto to openai.com login api create api copy api
+create .env fil at level client and server
+and past api key in .env as OPEN_API_KEY="api-key"
+
+now create server
+
+now go to the example of open ai choose model or the the following in try of post
+
+   try {
+        const prompt = req.body.prompt;
+        const response = await openai.createCompletion({
+            model: "text-davinci-003",
+            prompt: `${prompt}`,
+            temperature: 0,
+            max_tokens: 3000,
+            top_p: 1,
+            frequency_penalty: 0.5,
+            presence_penalty: 0,
+
+        });
+        res.status(200).send({
+            bot: response.data.choices[0].text
+        })
+    }
+
+
+remove the following script from package.json from the server dir
+pate the following instead
+
+    "server":"nodemon server"
+and command npm run server 
+or play vs code 
+
+if errors like
+SyntaxError: Cannot use import statement outside a module
+
+then goto server dir package 
+  add 
+  "type": "module",
+  in first array
+ 

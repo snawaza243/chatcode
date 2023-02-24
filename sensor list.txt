@@ -1,0 +1,15 @@
+Temperature sensors
+Proximity sensor
+Pressure sensor
+Water quality sensor
+Chemical sensor
+Gas sensor
+Smoke sensor
+IR sensors
+Level sensors
+Image sensors
+Motion detection sensors
+Accelerometer sensors
+Gyroscope sensors
+Humidity sensors
+Optical sensors

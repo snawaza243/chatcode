@@ -102,7 +102,6 @@ const handleSubmit = async (e) => {
     alert(err);
   }
 
-
 }
 
 form.addEventListener('submit', handleSubmit);

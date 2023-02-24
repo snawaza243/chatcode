@@ -1,0 +1,29 @@
+Using IoT density sensors to measure Water density. 
+
+What is density sensor? 
+
+Benefits of density sensors
+
+How do density sensors work?
+
+Applications for density sensors
+
+Advantage of density sensors
+
+Challenges of density sensors
+
+Selecting IoT density sensors for monitoring density. 
+
+Key consideration before installing IoT density sensors. 
+
+Preparing the density sensor site. 
+
+And saving data accuracy with IoT density sensors. 
+
+Working of density sensors. 
+
+Structure of density sensors. 
+
+Workflow of density sensors. 
+
+Devices used density sensors. Conclusion of density sensor.
